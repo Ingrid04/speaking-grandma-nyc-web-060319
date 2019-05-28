@@ -1,20 +1,20 @@
 $greeting = "Hi Nana, how are you?"
-greeting2 ="Hi!"
-shout = "WHAT DID YOU EAT TODAY?"
-repeat = "WHAT?"
-phrase ="I LOVE YOU GRANDMA!"
-shouting = true
+$greeting2 ="Hi!"
+$shout = "WHAT DID YOU EAT TODAY?"
+$repeat = "WHAT?"
+$phrase ="I LOVE YOU GRANDMA!"
+$shouting = true
 
 def speak_to_grandma(input)
   if input == $greeting
    print "Huh?! speak up, sonny!".upcase unless shouting
-  elsif input == greeting2
+  elsif input == $greeting2
    print "Huh?! speak up, sonny!".upcase
-  elsif input == shout
+  elsif input == $shout
    print "no, not since 1938!".upcase
-  elsif input == repeat
+  elsif input == $repeat
    print "no, not since 1938!".upcase
-  elsif input == phrase
+  elsif input == $phrase
    print "i love you too pumpkin!".upcase
   end
 end
