@@ -9,21 +9,10 @@ def speak_to_grandma(input)
   if input == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
   elsif input.upcase == input
-    return "HUH?! SPEAK UP, SONNY!."
+    return "HUH?! SPEAK UP, SONNY!"
   else 
-    return 
-  if input == $greeting
-   print "Huh?! speak up, sonny!".upcase unless shouting
-  elsif input == $greeting2
-   print "Huh?! speak up, sonny!".upcase
-  elsif input == $shout
-   print "no, not since 1938!".upcase
-  elsif input == $repeat
-   print "no, not since 1938!".upcase
-  elsif input == $phrase
-   print "i love you too pumpkin!".upcase
+    return "NO, NOT SINCE 1938!"
   end
-  return nil
 end
 
 print(speak_to_grandma("Hi Nana, how are you?"))
