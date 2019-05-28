@@ -9,8 +9,9 @@ def speak_to_grandma(input)
   if input == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
   elsif input.upcase == input
-    return ""
-  
+    return "HUH?! SPEAK UP, SONNY!."
+  else 
+    return 
   if input == $greeting
    print "Huh?! speak up, sonny!".upcase unless shouting
   elsif input == $greeting2
