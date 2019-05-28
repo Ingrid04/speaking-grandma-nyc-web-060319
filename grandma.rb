@@ -14,9 +14,3 @@ def speak_to_grandma(input)
     return "NO, NOT SINCE 1938!"
   end
 end
-
-print(speak_to_grandma("Hi Nana, how are you?"))
-print('test')
-
-
-
