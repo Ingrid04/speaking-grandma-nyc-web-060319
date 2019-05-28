@@ -6,15 +6,15 @@ phrase ="I LOVE YOU GRANDMA!"
 shouting = true
 
 def speak_to_grandma(input):
-  if speak_to_grandma == greeting
+  if input == greeting
    print "Huh?! speak up, sonny!".upcase unless shouting
-  elsif speak_to_grandma == greeting2
+  elsif input == greeting2
    print "Huh?! speak up, sonny!".upcase
-  elsif speak_to_grandma == shout
+  elsif input == shout
    print "no, not since 1938!".upcase
-  elsif speak_to_grandma == repeat
+  elsif input == repeat
    print "no, not since 1938!".upcase
-  elsif speak_to_grandma == phrase
+  elsif input == phrase
    print "i love you too pumpkin!".upcase
 end
 
