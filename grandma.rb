@@ -5,7 +5,7 @@ repeat = "WHAT?"
 phrase ="I LOVE YOU GRANDMA!"
 shouting = true
 
-def speak_to_grandma
+def speak_to_grandma(input):
   if speak_to_grandma == greeting
    print "Huh?! speak up, sonny!".upcase unless shouting
   elsif speak_to_grandma == greeting2
