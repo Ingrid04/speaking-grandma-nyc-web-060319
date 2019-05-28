@@ -18,7 +18,7 @@ def speak_to_grandma(input):
    print "i love you too pumpkin!".upcase
 end
 
-speak_to_grandma == greeting
+self.speak_to_grandma
 
 # if you say I LOVE YOU GRANDMA!, say that she replies I LOVE YOU TOO PUMPKIN!
 if phrase == "I LOVE YOU GRANDMA!"
