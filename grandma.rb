@@ -20,6 +20,9 @@ def speak_to_grandma(input)
   return nil
 end
 
+print(speak_to_grandma("Hi Nana, how are you?"))
+print('test')
+
 # if you say I LOVE YOU GRANDMA!, say that she replies I LOVE YOU TOO PUMPKIN!
 if $phrase == "I LOVE YOU GRANDMA!"
   print "i love you too pumpkin!".upcase
