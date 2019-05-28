@@ -25,22 +25,3 @@ end
 if phrase == "I LOVE YOU GRANDMA!"
   print "i love you too pumpkin!".upcase
 end
-# if you say 'Hi Nana, how are you?', she replies "Huh?! speak up, sonny!".upcase unless shouting
-if greeting == "Hi Nana, how are you?"
-  print "Huh?! speak up, sonny!".upcase unless shouting
-end
-
-# if you say 'Hi!' for the second time, she replies HUH?! SPEAK UP, SONNY! for a second time'
-if greeting2 == "Hi!"
-  print "Huh?! speak up, sonny!".upcase
-end
-
-# if you say 'WHAT DID YOU EAT TODAY?', she replies NO, NOT SINCE 1938!
-if shout == "WHAT DID YOU EAT TODAY?"
-  print "no, not since 1938!".upcase
-end
-
-# if you say 'WHAT?', she replies NO, NOT SINCE 1938! for a second time.
-#if repeat == "WHAT?"
-  #print "no, not since 1938!".upcase
-#end
