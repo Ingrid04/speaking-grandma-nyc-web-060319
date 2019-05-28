@@ -6,7 +6,8 @@ $phrase ="I LOVE YOU GRANDMA!"
 $shouting = true
 
 def speak_to_grandma(input)
-  if input == ""I LOVE YOU GRANDMA!""
+  if input == "I LOVE YOU GRANDMA!":
+    
   
   if input == $greeting
    print "Huh?! speak up, sonny!".upcase unless shouting
