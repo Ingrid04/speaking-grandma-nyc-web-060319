@@ -1,4 +1,4 @@
-greeting = "Hi Nana, how are you?"
+@greeting = "Hi Nana, how are you?"
 greeting2 ="Hi!"
 shout = "WHAT DID YOU EAT TODAY?"
 repeat = "WHAT?"
